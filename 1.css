@@ -1,0 +1,203 @@
+
+/* Estilos Gerais */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f9;
+    color: #193004;
+    line-height: 1.6;
+}
+
+/* Cabeçalho e Navegação */
+header {
+    background: #159d4d; /* Azul escuro, quase preto */
+    color: #fff;
+    padding: 1rem 0;
+    box-shadow: 0 2px 5px rgba(159, 239, 9, 0.246);
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header ul li {
+    margin-left: 30px;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header ul li a:hover {
+    color: #ff9900; /* Laranja vibrante */
+}
+
+/* Botões */
+.btn {
+    display: inline-block;
+    background: #ff9900;
+     background: #159d4d; 
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e68a00;
+}
+
+.btn-card {
+    background: #51c32b;
+    color: #fff;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-card:hover {
+    background-color: #33b31a;
+}
+
+/* Conteúdo Principal */
+main {
+    min-height: calc(100vh - 120px);
+}
+
+.hero {
+    background: url('https://via.placeholder.com/1500x600/1c2b51/ffffff?text=Chuteira+Mania') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 8rem 0;
+    text-shadow: 2px 2px 4px rgba(230, 82, 19, 0.43);
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.destaques, .produtos-lista, .contato-info {
+    max-width: 1200px;
+    margin: 3rem auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.destaques h2, .produtos-lista h1, .contato-info h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #4cc314;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card, .card-produto {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(139, 223, 12, 0.1);
+    transition: transform 0.3s ease;
+    width: 300px;
+    text-align: center;
+}
+
+.card:hover, .card-produto:hover {
+    transform: translateY(-10px);
+}
+
+.card img, .card-produto img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.card h3, .card-produto h3 {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+}
+
+.preco {
+    font-size: 1.2rem;
+    color: #e68a00;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+/* Estilos da Página de Contato */
+.contato-form {
+    max-width: 600px;
+    margin: 0 auto 2rem;
+    text-align: left;
+}
+
+.contato-form label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.contato-form input, .contato-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Garante que o padding não aumente a largura */
+}
+
+.contato-form button {
+    width: 100%;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.outros-contatos {
+    margin-top: 2rem;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 1.5rem 0;
+    background: #22b91f;
+    color: #fff;
+    margin-top: 3rem;
+}
+
+
+
+
